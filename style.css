@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #669ee6;
+}
+header {
+    background-color: #1618a4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+h1, h2 {
+    color: black;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#about .intro {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+
+    font-size: medium;
+}
+#about img {
+    width: 300px;
+    margin: 20px;
+}
+#about p {
+    max-width: 600px;
+    font-size: 22px;
+}
+table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin: 20px 0;
+
+}
+table, th, td {
+    border: 1px solid #20866b;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #333;
+    color: white;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
